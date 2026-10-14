@@ -1,0 +1,4 @@
+KPI,Excel Formula,Calculated Value,Meaning
+Total Sales,=SUM(Orders[Sales]),3075.1899999999996,Sum of all transaction sales
+Average Sales,=AVERAGE(Orders[Sales]),153.75949999999997,Mean sales value per transaction row
+Transaction Count,=COUNTA(Orders[Order ID]),20.0,Number of order-line records
